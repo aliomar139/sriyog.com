@@ -1,6 +1,6 @@
 'use client'
 
-import { countries } from "@/data/countries";
+import { countries } from "@/src/data/countries";
 import { useEffect, useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
@@ -501,7 +501,7 @@ const renderSelectSearch = <K extends keyof CareerFormData>(
 
           </div>
 
-            <h2 className="font-bold text-xl mt-6 col-span-2 mb-8 border-b pb-1 border-[#383838]">Uploads</h2>
+          <h2 className="font-bold text-xl mt-6 col-span-2 mb-8 border-b pb-1 border-[#383838]">Uploads</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {[
             { label: "Upload CV/Resume", name: "cv" , req:true},
